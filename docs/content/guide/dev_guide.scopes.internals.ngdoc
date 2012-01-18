@@ -114,8 +114,7 @@ application. This section describes the typical life cycle of an application so 
 scopes come into play throughout and get a sense of their interactions.
 ### How scopes interact in applications
 
-1. At application compile time, a root scope is created and is attached to the root `<HTML>` DOM
-element.
+1. At application compile time, a root scope is created and is attached to whatever DOM element contains the ng:app directive.
 2. During the compilation phase, the {@link dev_guide.compiler compiler} matches {@link
 api/angular.directive directives} against the DOM template. The directives usually fall into one of
 two categories:
